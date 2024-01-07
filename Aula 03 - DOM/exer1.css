@@ -1,0 +1,12 @@
+body{
+    background-color: violet;
+}
+h1{
+    font: bold 30pt Arial;
+}
+p{
+    font: normal 15pt Arial;
+}
+hr{
+    border-color: black;
+}
