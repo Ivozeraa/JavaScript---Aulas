@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contador de Passos</h1>
+    </header>
+    <section>
+        <div>Inicio:
+            <input type="number" name="ini" id="ini" min="0">
+        </div>
+        <div>
+            Fim:
+            <input type="number" name="fim" id="fim">
+        </div>
+        <div>
+            Passo:
+            <input type="number" name="pas" id="pas">
+        </div>
+        <div>
+            <input type="button" value="Contar" id="botao" onclick="contar()">
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Codezera</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
