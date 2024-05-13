@@ -9,4 +9,4 @@ function zerinhoOuUm(A, B, C){
         console.log("Sem vencedores!")
     }
 }
-zerinhoOuUm(1, 0, 0)
+zerinhoOuUm(0, 1, 0)
