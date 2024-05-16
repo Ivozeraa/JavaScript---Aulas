@@ -12,7 +12,7 @@ function calculadora(X, Y, O){
         let divisão = X/Y
         console.log(divisão)
     } else [
-        console.log("Error")
+        console.log("[ERROR] Insira um operador válido [+][-][x][/]")
     ]
 }
-calculadora(2, 5, "/")
+calculadora(50, 5, "/")
